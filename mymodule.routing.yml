@@ -1,0 +1,16 @@
+mymodule.page:
+  path: '/mymodule'
+  defaults:
+    _form: '\Drupal\mymodule\Form\MymoduleForm'
+    _title: 'This module is used to create API Form with create a table with coding '
+  requirements:
+    _permission: 'access content'
+
+mymodule.mypage:
+  path: '/mymodule1'
+  defaults:
+    _controller: '\Drupal\mymodule\Controller\MymoduleController::mymodule'
+    _title: 'THIS IS OUR DATABASE ENTRY RECORD'
+  requirements:
+    _permission: 'access content'
+  

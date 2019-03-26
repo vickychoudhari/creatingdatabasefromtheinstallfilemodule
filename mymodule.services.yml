@@ -1,0 +1,4 @@
+services:
+  drupalise:
+    class: Drupal\mymodule\Mymoduleservice
+    arguments: ['@database'] 
